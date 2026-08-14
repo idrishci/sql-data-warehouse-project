@@ -5,7 +5,7 @@ DDL Scripts : create bronze tables
 Script purpose :
   This script create tables in bronze schema , dropping exisitng tables if already existing 
 ======================================
-
+*/
 IF OBJECT_ID ('bronze.erp_px_cat_g1v2','U') IS NOT NULL 
 	DROP TABLE bronze.erp_px_cat_g1v2;
 
